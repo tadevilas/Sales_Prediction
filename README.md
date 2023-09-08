@@ -12,11 +12,13 @@ from sklearn.impute import KNNImputer
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
 
-**Dataset Info:**
+# Dataset Info:
 
 The data set contains the following columns 
- #   Column                     Non-Null Count  Dtype  
----  ------                     --------------  -----  
+
+ -   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  ----- 
+
  0   Item_Identifier            8523 non-null   object 
  1   Item_Weight                7060 non-null   float64
  2   Item_Fat_Content           8523 non-null   object 
@@ -32,7 +34,8 @@ The data set contains the following columns
 
  Based on the availble feature we wanted to predict the outlet sales
 
-** Steps involve:**
+# Steps involve:
+
  1. check the data type, missing values, data preprocessing
  2. Univariet and bi-varient analysis for categorical and numerical features
  3. Missing values imputation and label encoding
